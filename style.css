@@ -1,1 +1,61 @@
 /* styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    width: 100%;
+}
+
+.about {
+    align-content: center;
+}
+
+.row {
+    color:gray;
+    text-align: center;
+}
+
+#projects {
+    text-align: center;
+    color: gray;
+}
+
+.card-header {
+    color: indigo;
+}
+
+/* footer */
+#contact {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: center;
+    background-color: cornflowerblue;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#Email {
+    text-align: center;  
+}
+
+#Github {
+    text-align: center;
+}
+
+#Linkedin {
+    text-align: center;
+}
+/* media queries */
+@media screen and (max-width: 992px) {
+    /* remain normal */
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 576px) {
+    
+}
